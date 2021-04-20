@@ -63,20 +63,6 @@ Running in development mode. Open [http://localhost:3000](http://localhost:3000)
 
 <br />
 
-### \* Prettier
-
-[Prettier](https://prettier.io/) code formatter for various languages and integrates with most editors.
-
-`npm add -D prettier-eslint prettier-eslint-cli eslint-config-prettier eslint-plugin-prettier`
-
-**Prettier configurations**
-
--   _.prettier_
-
--   _.prettierignore_
-
-<br />
-
 ### \* Typescript
 
 [Typescript](https://www.typescriptlang.org/) a superset of Javascript that brings static-typing.
