@@ -4,11 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist && jest --clearCache",
-    "lint:eslint": "eslint '**/*.{js,ts,tsx}'",
-    "lint:eslint:fix": "npm lint:eslint --fix",
-    "lint": "npm lint:eslint",
-    "lint:fix": "npm lint:eslint:fix",
     "start": "webpack-dev-server --mode development --port 3000 --host 0.0.0.0",
     "build": "webpack",
     "test": "jest --testTimeout=100000",
