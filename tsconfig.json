@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "isolatedModules": true,
+      "jsx": "react",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "outDir": "./dist/",
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "strict": true,
+      "target": "es5",
+      "baseUrl": "./",
+      "paths": {
+          "@src/*": ["src/*"],
+          "@test/*": ["test/*"]
+      },
+      "watch": true // auto-recompile typescript file upon save
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

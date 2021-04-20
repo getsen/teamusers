@@ -1,0 +1,6 @@
+coverage/
+dist/
+node_modules/
+webpack.config.js
+*.scss
+*.css

@@ -1,0 +1,27 @@
+{
+    "presets": [
+        "@babel/typescript",
+        [
+            "@babel/env",
+            {
+                "targets": "node 10"
+            }
+        ],
+        "@babel/react"
+    ],
+    "plugins": ["babel-plugin-jsx-remove-data-test-id", "@babel/plugin-transform-runtime"],
+    "env": {
+        "esm": {
+            "presets": [
+                "@babel/typescript",
+                [
+                    "@babel/env",
+                    {
+                        "modules": false
+                    }
+                ],
+                "@babel/react"
+            ]
+        }
+    }
+}
